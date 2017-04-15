@@ -1,0 +1,27 @@
+Elsõ repository letöltés:
+git clone [link]
+
+változás mentése pl.: új kód:
+git add *
+git commit -m "NPM Init"
+git push
+
+lokális változások visszavonása:
+git stash
+
+remote code letöltése a legújabb commitra:
+git pull
+
+
+NPM csomagkezelés:
+Csomagok keresése:
+https://www.npmjs.com/ # vagy google
+
+csomag telepítése:
+npm install [csomagnév] --save
+
+npm install oracledb --save
+
+set OCI_LIB_DIR=C:\Oracle\instantclient\sdk\lib\msvc
+set OCI_INC_DIR=C:\Oracle\instantclient\sdk\include
+

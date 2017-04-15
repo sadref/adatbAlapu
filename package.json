@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/sadref/adatbAlapu/issues"
   },
-  "homepage": "https://github.com/sadref/adatbAlapu#readme"
+  "homepage": "https://github.com/sadref/adatbAlapu#readme",
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "oracledb": "^1.13.0"
+  }
 }
