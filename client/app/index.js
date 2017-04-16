@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { browserHistory, Router, Route } from 'react-router';
+import { browserHistory, Router, Route, IndexRoute } from 'react-router';
 import { Provider } from 'react-redux';
 import createStore from 'redux/lib/createStore';
 import applyMiddleware from 'redux/lib/applyMiddleware';
@@ -10,20 +10,22 @@ import allreducers from './reducers/index';
 
 import Main from './components/main';
 import Start from './components/start';
+import Register from './components/register';
+import Login from './components/login';
 
-console.log(allreducers);
 
 const store = createStore(
     allreducers
 );
 
-console.log(browserHistory)
 
 const history = syncHistoryWithStore(browserHistory, store);
 
 const routes = (
     <Route path='/' component={Main}>
-        <Route path='start' component={Start} />
+        <IndexRoute component={Start} />
+        <Route path='register' component={Register} />
+        <Route path='login' component={Login} />
     </Route>
 );
 

@@ -20,9 +20,10 @@
     "react-redux": "*",
     "react-router": "^2.0.0-rc4",
     "react-router-redux": "*",
+    "react-slick": "^0.14.8",
     "redux": "*",
     "script-loader": "*",
-    "socket.io-client": "*",
+    "socket.io-client": "^1.7.3",
     "style-loader": "*"
   },
   "devDependencies": {
