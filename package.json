@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/sadref/adatbAlapu#readme",
   "dependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-register": "^6.18.0",
     "express.js": "^1.0.0",
-    "oracledb": "^1.13.0"
+    "oracledb": "^1.13.0",
+    "path": "^0.12.7"
   }
 }
