@@ -2,7 +2,7 @@ import React from 'react';
 import bindActionCreators from 'redux/lib/bindActionCreators';
 import { connect } from 'react-redux';
 
-import iPhonePic from '../img/iphone6.jpg';
+import iPhonePic from '../assets/img/iphone6.jpg';
 
 class NewProducts extends React.Component {
     constructor(props) {

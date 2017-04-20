@@ -5,9 +5,9 @@ import { Link } from 'react-router';
 
 const socket = require('socket.io-client')('http://localhost:3000')
 
-require('../css/bootstrap.min.css');
-require('../css/font-awesome.min.css');
-require('../css/styles.css');
+require('../assets/css/bootstrap.min.css');
+require('../assets/css/font-awesome.min.css');
+require('../assets/css/styles.css');
 
 import Header from './header/index';
 

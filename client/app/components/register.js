@@ -3,7 +3,7 @@ import bindActionCreators from 'redux/lib/bindActionCreators';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 
-require('../css/register.css');
+//require('../assets/css/register.css');
 
 class Register extends React.Component {
     constructor(props) {

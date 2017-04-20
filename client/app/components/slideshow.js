@@ -3,8 +3,8 @@ import bindActionCreators from 'redux/lib/bindActionCreators';
 import { connect } from 'react-redux';
 var Slider = require('react-slick');
 
-import PictureOne from '../img/1.png'
-import PictureTwo from '../img/2.png'
+import PictureOne from '../assets/img/1.png'
+import PictureTwo from '../assets/img/2.png'
 
 
 class SlideShow extends React.Component {
@@ -19,11 +19,12 @@ class SlideShow extends React.Component {
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
-            centerMode: true
+            centerMode: true,
+            useCSS: true
         };
         return (
             <div id="slideshow">
-                <Slider {...settings}>
+                <Slider ref='slider' {...settings}>
                     <div><img src={PictureOne} /></div>
                     <div><img src={PictureTwo} /></div>
                 </Slider>

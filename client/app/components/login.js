@@ -3,7 +3,7 @@ import bindActionCreators from 'redux/lib/bindActionCreators';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 
-require('../css/login.css')
+require('../assets/css/login.css')
 
 class Login extends React.Component {
     constructor(props) {

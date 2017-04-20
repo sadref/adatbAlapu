@@ -10,7 +10,11 @@ class LoginButton extends React.Component {
 
     render() {
         return (
-            <button type="button" className="btn btn-secondary"><Link to={`/login`} activeClassName="active">Login</Link></button>
+            <button type="button" className="Button">
+                <Link className="login" to={`/login`} activeClassName="active">
+                    Login
+                </Link>
+            </button>
         )
     }
 }

@@ -10,7 +10,7 @@ class RegisterButton extends React.Component {
 
     render() {
         return (
-            <Link to={`/register`} activeClassName="active">Register</Link>
+            <Link className="register" to={`/register`} activeClassName="active">Register</Link>
         )
     }
 }

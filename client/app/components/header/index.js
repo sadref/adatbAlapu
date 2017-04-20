@@ -2,10 +2,13 @@ import React from 'react';
 import bindActionCreators from 'redux/lib/bindActionCreators';
 import { connect } from 'react-redux';
 
-require('../../css/header.css');
+require('../../assets/css/header.css');
+require('../../assets/css/font-awesome.min.css');
 
 import Search from './search';
 import ButtonContainer from './buttoncontainer'
+import IconButtonContainer from './iconbuttoncontainer'
+
 
 class Header extends React.Component {
     constructor(props) {
@@ -18,6 +21,7 @@ class Header extends React.Component {
                 <div id="brandname">Webshop</div>
                 <Search />
                 <ButtonContainer />
+                <IconButtonContainer />             
             </nav>
         )
     }

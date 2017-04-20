@@ -1,0 +1,87 @@
+.navbar {
+    height:100px;
+    background-color: rgb(71,66,66);
+}
+
+#brandname {
+    font-weight:bold;
+    color: rgb(251,251,251);
+    font-size: 21px;
+    float: left;
+    height: 50px;
+    padding: 20px 100px;
+}
+
+.navbar > form > input {
+    margin-top: 20px;
+}
+
+.navbar > form {
+    width: 300px;
+    display: -webkit-inline-box;
+}
+
+.navbar > form > button {
+    margin-top: 20px;
+    margin-left: 10px;
+    background: #56c6c6;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    text-shadow: none;
+    padding: 10px 22px;
+    transition: background-color 0.25s;
+}
+
+.navbar-right {
+    margin-right: 40px !important; 
+    margin-top: 20px !important;
+    color: white;
+}
+
+.navbar-right > * {
+        margin: 0 0 0 15;
+}
+/*a {
+    color: #ffffff;
+    text-decoration: none;
+}*/
+
+.login {
+    color: white;
+}
+.register {
+    color: white;
+}
+.button {
+    background: #56c6c6;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: none;
+    border: none;
+    text-shadow: none;
+    padding: 10px 22px;
+    transition: background-color 0.25s;
+}
+.iconbuttoncontainer {
+    width: 60px;
+    height: 40px;
+    display: -webkit-inline-box;
+    position: fixed;
+    margin-right: 40px; 
+    margin-top: 74px;
+
+}
+.shoppingcart {
+    width: 30px;
+    color : white;
+    background-color: rgb(71,66,66);
+    border-radius: 20px;
+}
+.usericon {
+    width: 30px;
+    color : white;
+    background-color: rgb(71,66,66);
+    border-radius: 20px;
+}
